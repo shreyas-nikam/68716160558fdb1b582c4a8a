@@ -39,12 +39,14 @@ def run_page2():
     st.header("KRI Trend Analysis")
 
     # Sample Data (replace with actual data loading or generation)
-    data = {'Date': pd.to_datetime(['2024-01-01', '2024-01-02', '2024-01-03', '2024-01-04', '2024-01-05']),
-            'Location': ['Location 1'] * 5,
-            'Number of unreconciled trades > 5 days': [50, 60, 70, 80, 90],
-            'Staff turnover': [2, 3, 2, 4, 5],
-            'Unreconciled items as % of volume': [5, 6, 7, 8, 9],
-            'Volume per staff': [100, 110, 120, 130, 140]}
+    data = {
+        'Date': pd.to_datetime(['2024-01-01', '2024-01-02', '2024-01-03', '2024-01-04', '2024-01-05']),
+        'Location': ['Location 1'] * 5,
+        'Number of unreconciled trades > 5 days': [50, 60, 70, 80, 90],
+        'Staff turnover': [2, 3, 2, 4, 5],
+        'Volume of Trades per day': [1000, 1200, 1500, 1800, 2000],
+        'Number of Back Office Staff': [10, 11, 12, 13, 14]
+    }
     df = pd.DataFrame(data)
 
     # Calculate KPIs
@@ -63,6 +65,6 @@ def run_page2():
 
     # Plotting
     fig = px.line(df, x="Date", y=selected_kri, color="Location", title=f"{selected_kri} Trend")
-    fig.add_hline(y=amber_threshold, color="orange", annotation_text="Amber Threshold")
-    fig.add_hline(y=red_threshold, color="red", annotation_text="Red Threshold")
+    fig.add_hline(y=amber_threshold, line=dict(color="orange"), annotation_text="Amber Threshold")
+    fig.add_hline(y=red_threshold, line=dict(color="red"), annotation_text="Red Threshold")
     st.plotly_chart(fig, use_container_width=True)
