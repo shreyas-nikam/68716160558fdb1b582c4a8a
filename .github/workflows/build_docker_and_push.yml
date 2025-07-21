@@ -20,8 +20,8 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t None/68716160558fdb1b582c4a8a_streamlit_app:latest .
+          docker build -t qunikamshreyas/68716160558fdb1b582c4a8a_streamlit_app:latest .
 
       - name: Push Docker image
         run: |
-          docker push None/68716160558fdb1b582c4a8a_streamlit_app:latest
+          docker push qunikamshreyas/68716160558fdb1b582c4a8a_streamlit_app:latest
