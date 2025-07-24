@@ -1,4 +1,4 @@
-source[server]
+[server]
 port = 8557
 baseUrlPath = "68716160558fdb1b582c4a8a"
 enableCORS = false
