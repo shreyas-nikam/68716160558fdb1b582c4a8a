@@ -1,6 +1,3 @@
-Here's a comprehensive `README.md` file for your Streamlit application lab project, incorporating all the requested sections.
-
----
 
 # QuLab: Operational Risk Management with Key Risk Indicators
 
