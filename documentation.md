@@ -3,7 +3,7 @@ summary: First lab of Module 4 Documentation
 feedback link: https://docs.google.com/forms/d/e/1FAIpQLSfWkOK-in_bMMoHSZfcIvAeO58PAH9wrDqcxnJABHaxiDqhSA/viewform?usp=sf_link
 environments: Web
 status: Published
-# Developing a Key Risk Indicator (KRI) Monitoring Application with Streamlit
+# Developing a Key Risk Indicator (KRI) Monitoring Application with Streamli
 
 ## 1. Understanding the QuLab Application and Operational Risk Management
 Duration: 00:05:00
