@@ -1,9 +1,9 @@
 id: 68716160558fdb1b582c4a8a_user_guide
-summary: First lab of Module 4 User Guide
+summary: First lab of Module 4 user_guide
 feedback link: https://docs.google.com/forms/d/e/1FAIpQLSfWkOK-in_bMMoHSZfcIvAeO58PAH9wrDqcxnJABHaxiDqhSA/viewform?usp=sf_link
 environments: Web
 status: Published
-# Exploring Key Risk Indicators with QuLab
+# Exploring Key Risk Indicators with QuLa
 
 ## Introduction to QuLab and Key Risk Indicators
 Duration: 00:02
